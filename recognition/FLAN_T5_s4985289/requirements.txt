@@ -1,0 +1,10 @@
+# Confirm exact versions from the working Rangpur environment before final submission.
+torch==2.13.0
+transformers==5.19.0
+datasets==5.1.0
+peft==0.21.2
+accelerate==1.15.0
+evaluate
+rouge-score
+sentencepiece
+matplotlib

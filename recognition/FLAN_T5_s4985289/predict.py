@@ -3,7 +3,7 @@ import argparse
 import json
 from dataset import load_splits, get_tokenizer, MODEL_ID
 from modules import load_checkpoint
-from evaluate import run_generation
+from evaluate_utils import run_generation
 
 
 def main():
