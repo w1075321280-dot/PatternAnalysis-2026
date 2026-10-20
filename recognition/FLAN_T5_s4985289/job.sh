@@ -1,10 +1,8 @@
-
 #!/bin/bash
 #SBATCH --job-name=flan_t5_lora
 #SBATCH --partition=comp3710
 #SBATCH --account=comp3710
 #SBATCH --gres=gpu:1
-#SBATCH --time=03:00:00
 #SBATCH --output=flan_t5_%j.out
 #SBATCH --error=flan_t5_%j.err
 
