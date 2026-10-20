@@ -24,4 +24,3 @@ python -u predict.py \
     --output-dir outputs/eval_lora_validation
 
 echo "LoRA evaluation completed."
-EOF
