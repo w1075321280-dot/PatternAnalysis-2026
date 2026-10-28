@@ -157,7 +157,7 @@ These versions are reproduced in the recommended `requirements.txt`. The public 
 
 ### 7.1 ROUGE Comparison
 
-![Figure 1. Validation ROUGE comparison across zero-shot, LoRA, and full fine-tuning.](results\figures\01_rouge_comparison.png)
+![Figure 1. Validation ROUGE comparison across zero-shot, LoRA, and full fine-tuning.](results/figures/01_rouge_comparison.png)
 
 **Figure 1.** ROUGE scores measured on the **same held-out 10,000-example validation split** for all three settings; numbers in the table are taken from the saved `metrics.json` files.
 
