@@ -1,3 +1,9 @@
+'''
+Teaching staff confirmed that `transformers` and `peft` may be used to load the model
+and to add LoRA; the training loop and the evaluation are written by hand elsewhere.
+'''
+
+
 """PyTorch FLAN-T5 model construction and LoRA adapter configuration."""
 from transformers import AutoModelForSeq2SeqLM
 from peft import LoraConfig, TaskType, get_peft_model, PeftModel
